@@ -1,0 +1,15 @@
+{
+    "Calm": "Calmo",
+    "Light_air": "Aragem",
+    "Light_breeze": "Brisa leve",
+    "Gentle_breeze": "Brisa fraca",
+    "Moderate_breeze": "Brisa moderada",
+    "Fresh_breeze": "Brisa forte",
+    "Strong_breeze": "Vento fresco",
+    "High_wind": "Vento forte",
+    "Fresh_Gale": "Ventania",
+    "Strong_Gale": "Ventania forte",
+    "Storm": "Tempestade",
+    "Violent_storm": "Tempestade violenta",
+    "Hurricane_force": "Furacão"
+}

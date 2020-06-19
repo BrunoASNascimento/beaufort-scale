@@ -4,13 +4,13 @@ with open("README.md", 'r') as fh:
     long_description = fh.read()
 
 setup(
-    name='beaufort-scale',
-    version='0.0.1',
+    name='beaufort_scale',
+    version='1.0.1',
     author='Bruno Nascimento',
     author_email='bruno_freddy@hotmail.com',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    packages=['beaufort-scale'],
+    packages=['beaufort_scale'],
     url='https://github.com/BrunoASN/beaufort-scale',
     project_urls={
         'Código fonte': 'https://github.com/BrunoASN/beaufort-scale',

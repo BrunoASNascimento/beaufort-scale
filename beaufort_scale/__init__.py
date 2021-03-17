@@ -1,1 +1,1 @@
-from .beaufort_scale import *
+import beaufort_scale.beaufort_scale

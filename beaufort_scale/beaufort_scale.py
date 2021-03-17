@@ -1,7 +1,3 @@
-import json
-import os
-
-
 def languages(language):
     dict_languages = {
         'en': {
@@ -61,33 +57,31 @@ def beaufort_scale_ms(value, language='en'):
 
     #! Beaufort scale in m/s
     if(value < 0.5):
-        str_value = translate_dict['Calm']
+        return translate_dict['Calm']
     elif((value >= 0.5) and (value < 1.5)):
-        str_value = translate_dict['Light_air']
+        return translate_dict['Light_air']
     elif((value >= 1.5) and (value < 3.3)):
-        str_value = translate_dict['Light_breeze']
+        return translate_dict['Light_breeze']
     elif((value >= 3.3) and (value < 5.5)):
-        str_value = translate_dict['Gentle_breeze']
+        return translate_dict['Gentle_breeze']
     elif((value >= 5.5) and (value < 7.9)):
-        str_value = translate_dict['Moderate_breeze']
+        return translate_dict['Moderate_breeze']
     elif((value >= 7.9) and (value < 10.7)):
-        str_value = translate_dict['Fresh_breeze']
+        return translate_dict['Fresh_breeze']
     elif((value >= 10.7) and (value < 13.8)):
-        str_value = translate_dict['Strong_breeze']
+        return translate_dict['Strong_breeze']
     elif((value >= 13.8) and (value < 17.1)):
-        str_value = translate_dict['High_wind']
+        return translate_dict['High_wind']
     elif((value >= 17.1) and (value < 20.7)):
-        str_value = translate_dict['Fresh_Gale']
+        return translate_dict['Fresh_Gale']
     elif((value >= 20.7) and (value < 24.4)):
-        str_value = translate_dict['Strong_Gale']
+        return translate_dict['Strong_Gale']
     elif((value >= 24.4) and (value < 28.4)):
-        str_value = translate_dict['Storm']
+        return translate_dict['Storm']
     elif((value >= 28.4) and (value < 32.6)):
-        str_value = translate_dict['Violent_storm']
+        return translate_dict['Violent_storm']
     elif(value >= 32.6):
-        str_value = translate_dict['Hurricane_force']
-
-    return str_value
+        return translate_dict['Hurricane_force']
 
 
 def beaufort_scale_kmh(value, language='en'):
